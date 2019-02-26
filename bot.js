@@ -14,8 +14,6 @@ const Canvas = require('canvas');
 const db = require('quick.db')
 const ms = require('ms')
 const bot = new Discord.Client();
-const welcome = JSON.parse(fs.readFileSync('./welcomer.json' , 'utf8'));
-     let points = {}
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
